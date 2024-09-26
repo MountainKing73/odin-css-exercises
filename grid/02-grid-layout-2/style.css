@@ -11,10 +11,10 @@ html {
   box-sizing: border-box;
   display: inline-grid;
   grid-template:
-    repeat(4, 1fr) / 1fr,
-    2fr;
-  column-gap: 1em;
-  row-gap: 20px;
+    1fr 1fr 5fr 1fr / 1fr,
+    3fr;
+  column-gap: 15px;
+  row-gap: 15px;
 }
 
 .container div {
