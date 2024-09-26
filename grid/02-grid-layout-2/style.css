@@ -9,6 +9,12 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: inline-grid;
+  grid-template:
+    repeat(4, 1fr) / 1fr,
+    2fr;
+  column-gap: 1em;
+  row-gap: 20px;
 }
 
 .container div {
@@ -26,7 +32,7 @@ html {
 }
 
 .sidebar {
-  background-color: #005B94;
+  background-color: #005b94;
   grid-row: 2 / 4;
 }
 
@@ -35,7 +41,7 @@ html {
 }
 
 .article {
-  background-color: #7E1DC3;
+  background-color: #7e1dc3;
 }
 
 .article p {
@@ -49,3 +55,4 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
